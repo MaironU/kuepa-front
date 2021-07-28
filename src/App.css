@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+.form-control{
+    border-radius: .75rem;
+    border: 1px solid #ccc !important;
+    padding: .75rem;
+    width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.cursor-pointer {
+  cursor: pointer
+}
+
+input:focus {
+  outline: none;
+}
+
+.text-danger {
+  color: #dc3545!important;
+}
+
+.text-success {
+  color: aquamarine !important;
+}

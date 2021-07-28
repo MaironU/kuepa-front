@@ -1,0 +1,19 @@
+.footer {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+  background-color: #212529;
+}
+
+.footer img {
+  height: 1.5rem;
+  margin-left: 60px;
+}
+
+.footer .footer-copytight {
+  color: #555;
+  font-size: .75rem;
+  margin-right: 60px;
+}
